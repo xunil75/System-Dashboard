@@ -10,6 +10,7 @@ Program | Links | Command
 ------------ | ------------- | -------------
 Grafana | https://grafana.com | apt-get install grafana
 InfluxDB | https://www.influxdata.com | apt-get install influxdb
+Tautulli | https://tautulli.com | [How-to](https://github.com/Tautulli/Tautulli-Wiki/wiki/Installation#linux)
 
 
 

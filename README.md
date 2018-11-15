@@ -113,7 +113,7 @@ Change permission of the file **plexcollector.py**
 ```sh
 chmod +x plexcollector.py
 ```
-**Create a service**
+* Create a service
 
 ```sh
 cd /etc/systemd/system
@@ -140,7 +140,7 @@ TimeoutSec=15s
 [Install]
 WantedBy=multi-user.target
 ```
-**Enable the Service**
+* Enable the Service
 
 ```sh
 systemctl enable plexdata.service
@@ -168,12 +168,12 @@ tautulli_api_key = 'YOUR TAUTULLI API KEY'
 tautulli_failback_ip = 'YOUR TAUTULLI IP ADDRESS'
 tautulli_influxdb_db_name = 'newplex'
 ```
-*Change permissions of the files* **configuration.py** **ombi.py** **tautulli.py**
+* Change permissions of the files **configuration.py** **ombi.py** **tautulli.py**
 
 ```sh
 chmod +x configuration.py ombi.py tautulli.py
 ```
-**Create a cronjob**
+* Create a cronjob
 
 ```sh
 crontab -e

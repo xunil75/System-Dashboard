@@ -81,6 +81,11 @@ Python Packages
 
 open the folder **Plex-Data-Collector-For-InfluxDB**, edit the **config.ini** file with the following details:
 
+**Change these settings!**
+* Username = YOUR PLEX USERNAME
+* Password = YOUR PLEX PASSWORD
+* Servers = YOUR PLEX IP ADDRESS
+
 ```sh
 [GENERAL]
 # Seconds between each polling run

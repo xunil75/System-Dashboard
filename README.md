@@ -183,9 +183,36 @@ crontab -e
 * * * * * /usr/bin/python3 /PATH/TO/YOUR/grafana-scripts/tautulli.py
 ```
 
+**3. tautulli-influxdb-export**
 
+Change permission of the file **plexpy_influxdb_export.py**
 
+```sh
+chmod +x plexpy_influxdb_export.py
+```
+edit the file **plexpy_influxdb_export.service** as follow:
 
+```sh
+[Unit]
+Description=PlexPy2InfluxDB Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /PATH/TO/YOUR/tautulli-influxdb-export/plexpy_influxdb_export.py --plexpyhost YOU_TAUTULLI_HOST --plexpyapikey YOUR_TAUTTULI_API_KEY
+Restart=on-failure
+RestartSec=15s
+TimeoutSec=15s
+
+[Install]
+WantedBy=multi-user.target
+```
+
+copy the file **plexpy_influxdb_export.service** to your systemd folder
+
+```sh
+cp plexpy_influxdb_export.service /etc/systemd/system
+```
 
 
 

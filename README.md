@@ -27,7 +27,7 @@ Zimbra Mail-Server | https://zimbra.com | [Howto](https://zimbra.org/download/zi
 
 # Start
 
-After installing all the required components, you need to create at least 2 InfluxDB databases.
+After installing all the required components, you need to create at least 3 InfluxDB databases.
 
 ```
 plex# influx

@@ -9,7 +9,7 @@ Start of the Dahsboard page. I will try to explain the best I can. I will also p
 
 # Things you need before you start:
 
-I will not explian how to install these aplications, there numerous guides on the Internet that you can look at!
+I will not explian how to install these aplications, there are numerous guides on the Internet that you can look at!
 
 Program | Links | Command
 ------------ | ------------- | -------------
@@ -175,6 +175,7 @@ tautulli_influxdb_db_name = 'newplex'
 ```sh
 chmod +x configuration.py ombi.py tautulli.py
 ```
+
 * Create a cronjob
 
 ```sh
@@ -192,6 +193,7 @@ Change permission of the file **plexpy_influxdb_export.py**
 ```sh
 chmod +x plexpy_influxdb_export.py
 ```
+
 edit the file **plexpy_influxdb_export.service** as follow:
 
 ```sh
@@ -209,11 +211,13 @@ TimeoutSec=15s
 [Install]
 WantedBy=multi-user.target
 ```
+
 copy the file **plexpy_influxdb_export.service** to your **system** folder
 
 ```sh
 cp plexpy_influxdb_export.service /etc/systemd/system
 ```
+
 * Enable the Service
 ```sh
 systemctl enable plexpy_influxdb_export.service

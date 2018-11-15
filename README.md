@@ -36,6 +36,7 @@ influx
 Connected to http://localhost:8086 version 1.6.4
 InfluxDB shell version: 1.6.4
 > create database plex_data
+> create database plexpy
 > create database newplex
 > show databases
 name: databases
@@ -44,6 +45,7 @@ name
 _internal
 plex_data
 newplex
+plexpy
 > quit
 ```
 

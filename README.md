@@ -36,14 +36,12 @@ influx
 Connected to http://localhost:8086 version 1.6.4
 InfluxDB shell version: 1.6.4
 > create database plex_data
-> create database tautulli
 > create database newplex
 > show databases
 name: databases
 name
 ----
 _internal
-tautulli
 plex_data
 newplex
 > quit

@@ -58,7 +58,7 @@ git clone https://github.com/Drewster727/tautulli-influxdb-export.git
 ```
 
 # Optional Repo for the Zimbra Mail-Server
-Follow the intructions there!
+* Follow the intructions there!
 
 ```sh
 git clone https://github.com/jorgedlcruz/zimbra-grafana.git

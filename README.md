@@ -29,8 +29,8 @@ Zimbra Mail-Server | https://zimbra.com | [Howto](https://zimbra.org/download/zi
 
 After installing all the required components, you need to create at least 3 InfluxDB databases.
 
-```
-plex# influx
+```sh
+influx
 Connected to http://localhost:8086 version 1.6.4
 InfluxDB shell version: 1.6.4
 > create database plex_data
@@ -45,24 +45,21 @@ tautulli
 plex_data
 newplex
 > quit
-
 ```
 
 # Clone the following Repos
 
-```
+```sh
 git clone https://github.com/barrycarey/Plex-Data-Collector-For-InfluxDB.git
 git clone https://github.com/DirtyCajunRice/grafana-scripts.git
 git clone https://github.com/Drewster727/tautulli-influxdb-export.git
-
 ```
 
 # Optional Repo for the Zimbra Mail-Server
 Follow the intructions there!
 
-```
+```sh
 git clone https://github.com/jorgedlcruz/zimbra-grafana.git
-
 ```
 # Setup the cloned Git repos!
 

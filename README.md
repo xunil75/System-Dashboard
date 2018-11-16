@@ -1,5 +1,3 @@
-# DON'T FOLLOW THIS GUIDE AS OF YET. I`M STILL WORKING ON IT!
-
 # System Dashboard
 ------------------------------
 

@@ -228,13 +228,13 @@ systemctl enable plexpy_influxdb_export.service
 
 ![create-datasources](https://user-images.githubusercontent.com/32961904/48622037-ce9be900-e9a5-11e8-8a9b-7907b173c12b.jpg)
 
+```sh
 * Name:       Plex_Data
 * Type:       influxDB
 * URL:        http://localhost:8086
 * Access:     Server (Default)
 * Database:   plex_data
-
-
+```
 
 # Dashboard
 

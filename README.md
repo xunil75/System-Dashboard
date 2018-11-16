@@ -18,6 +18,7 @@ InfluxDB | https://www.influxdata.com | apt-get install influxdb
 Tautulli | https://tautulli.com | [Howto](https://github.com/Tautulli/Tautulli-Wiki/wiki/Installation#linux)
 Plex | https://plex.tv | [Download](https://www.plex.tv/media-server-downloads/#plex-media-server)
 Ombi | https://ombi.io/ | [Howto](https://github.com/tidusjar/Ombi/wiki/Installation)
+Telegraf | https://www.influxdata.com | [Hotwo](https://docs.influxdata.com/telegraf/v1.8/introduction/installation/)
 
 # Optional
 
@@ -235,6 +236,35 @@ systemctl enable plexpy_influxdb_export.service
 * Access:     Server (Default)
 * Database:   plex_data
 ```
+```sh
+* Name:       Plex Users
+* Type:       influxDB
+* URL:        http://localhost:8086
+* Access:     Server (Default)
+* Database:   plexpy
+```
+```sh
+* Name:       Tautulli
+* Type:       influxDB
+* URL:        http://localhost:8086
+* Access:     Server (Default)
+* Database:   newplex
+```
+# System Stats
+System stats are based on Telegraf
+
+* 
+
+```sh
+* Name:       plex
+* Type:       influxDB
+* URL:        http://localhost:8086
+* Access:     Server (Default)
+* Database:   telegraf
+
+
+
+
 
 # Dashboard
 

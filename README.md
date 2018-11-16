@@ -234,6 +234,12 @@ Download the dashboard from this repo and upload it to your Grafana:
 
 ![import](https://user-images.githubusercontent.com/32961904/48556703-faa36580-e8e4-11e8-9ebb-4d0f6020933c.jpg)
 
+# Create InfluxDB datasources
+
+![create-datasources](https://user-images.githubusercontent.com/32961904/48622037-ce9be900-e9a5-11e8-8a9b-7907b173c12b.jpg)
+
+![plex_data](https://user-images.githubusercontent.com/32961904/48622068-e1162280-e9a5-11e8-8504-ccf690a4008d.JPG)
+![plexpy](https://user-images.githubusercontent.com/32961904/48622073-e4a9a980-e9a5-11e8-956c-1162c97f1f98.JPG)
+![newplex](https://user-images.githubusercontent.com/32961904/48622076-e70c0380-e9a5-11e8-97d8-9eaf90fa7da8.JPG)
 
 
-![image](https://user-images.githubusercontent.com/32961904/48545440-3844c600-e8c6-11e8-9436-5fbf493d3403.png)

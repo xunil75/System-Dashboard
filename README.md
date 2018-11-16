@@ -251,9 +251,7 @@ systemctl enable plexpy_influxdb_export.service
 * Database:   newplex
 ```
 # System Stats
-System stats are based on Telegraf
-
-* 
+System stats that you see on the Dashboard are based on Telegraf! Create a datasource as well if you want to see some system details. Edit the file ***/etc/telegraf/telegraf.conf*** to monitor the services you want!
 
 ```sh
 * Name:       plex
@@ -261,11 +259,7 @@ System stats are based on Telegraf
 * URL:        http://localhost:8086
 * Access:     Server (Default)
 * Database:   telegraf
-
-
-
-
-
+```
 # Dashboard
 
 Download the dashboard from this repo and import it to your Grafana:

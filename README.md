@@ -145,10 +145,13 @@ TimeoutSec=15s
 [Install]
 WantedBy=multi-user.target
 ```
-* Enable the Service
+* Enable and start the Service
 
 ```sh
-systemctl enable plexdata.service
+sudo systemctl enable plexdata.service
+```
+```sh
+sudo service plexdata start
 ```
 
 **2. grafana-scripts**
@@ -221,10 +224,15 @@ copy the file **plexpy_influxdb_export.service** to your **system** folder
 cp plexpy_influxdb_export.service /etc/systemd/system
 ```
 
-* Enable the Service
+* Enable and start the Service
+
 ```sh
-systemctl enable plexpy_influxdb_export.service
+sudo systemctl enable plexpy_influxdb_export.service
 ```
+```sh
+sudo service plexpy_influxdb_export start
+```
+
 # Create InfluxDB datasources
 
 ![create-datasources](https://user-images.githubusercontent.com/32961904/48622037-ce9be900-e9a5-11e8-8a9b-7907b173c12b.jpg)

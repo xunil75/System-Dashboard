@@ -275,7 +275,7 @@ System stats that you see on the Dashboard are based on Telegraf! Create a datas
 ```
 # Dashboard
 
-Download the dashboard from this repo and import it to your Grafana:
+Download the dashboard from this repo, import it to your Grafana and adapt the datasources if needed:
 
 ![import](https://user-images.githubusercontent.com/32961904/48556703-faa36580-e8e4-11e8-9ebb-4d0f6020933c.jpg)
 

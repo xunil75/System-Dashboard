@@ -145,11 +145,13 @@ TimeoutSec=15s
 [Install]
 WantedBy=multi-user.target
 ```
-* Enable and start the Service
+* Enable the Service
 
 ```sh
 sudo systemctl enable plexdata.service
 ```
+* Start the Service
+
 ```sh
 sudo service plexdata start
 ```
@@ -224,11 +226,14 @@ copy the file **plexpy_influxdb_export.service** to your **system** folder
 cp plexpy_influxdb_export.service /etc/systemd/system
 ```
 
-* Enable and start the Service
+* Enable the Service
 
 ```sh
 sudo systemctl enable plexpy_influxdb_export.service
 ```
+
+* Start the Service
+
 ```sh
 sudo service plexpy_influxdb_export start
 ```

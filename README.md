@@ -5,7 +5,7 @@ Start of the Dahsboard page. I will try to explain the best I can. I will also p
 
 **This installation it's based on my Ubuntu Server 16.04. It may or not work on all distros!**
 
-![dashboard](https://user-images.githubusercontent.com/32961904/48569284-87f4b300-e901-11e8-870d-412ee5f29f25.jpg)
+![Dasboard](https://user-images.githubusercontent.com/32961904/54270416-ad2bc200-457f-11e9-94f0-6ae8bc8450cc.jpg)
 
 # Things you need before you start:
 
